@@ -1,0 +1,10 @@
+rule "Envío de correo de alarma"
+when
+    Event(humidity: float, temperature: float) // Evento con variables de humedad y temperatura
+then
+    String emailContent = "Alarma: el sensor ha detectado una temperatura y una humedad con los siguientes valores:\n\n"
+        + "Temperatura: " + temperature + " grados\n"
+        + "Humedad: " + humidity + "%";
+        
+    sendEmail("destinatario@example.com", "Alarma de Sensor", emailContent);
+end

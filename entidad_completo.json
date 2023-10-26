@@ -1,0 +1,101 @@
+{ 
+
+, 
+
+"dateCreated":{ 
+    "value":"2023-01-31T17:06:02.000Z", 
+    "type": "Text" 
+     }, 
+"dateModified":{ 
+     "value":"2023-02-24T14:05:19.000Z", 
+     "type": "Text" 
+}, 
+
+"CO2": 
+{ 
+        "IdEstacion":"XXXXXXXX",
+        "IdMagnitud":"XXX_XX",
+
+        "magnitud":{
+            "type":"Float", 
+            "value":"60" 
+    },
+        "tecnica":{
+            "type":"Text", 
+            "value":"captacion" 
+    },
+        "unidades":{
+            "type":"Text", 
+            "value":"co2" 
+    },
+        "flag":{
+            "type":"Text", 
+            "value":"t" 
+    }
+     
+},
+"SO2": { 
+        "value":{  
+            "type": "Float", 
+            "value":"48,5"  
+        },
+        "magnitud":{
+            "type":"Float", 
+            "value":"60" 
+        },
+        "unidades":{
+            "type":"Text", 
+            "value":"co2" 
+    },
+        "tecnica":{
+            "type":"Text", 
+            "value":"captacion" 
+    },
+
+"Ni": { 
+        "value":{  
+            "type": "Float", 
+            "value":"48,5"  
+        },
+        "magnitud":{
+            "type":"Float", 
+            "value":"60" 
+        },
+        "unidades":{
+            "type":"Text", 
+            "value":"co2" 
+    },
+        "tecnica":{
+            "type":"Text", 
+            "value":"captacion" 
+    },
+"Cd": { 
+        "value":{  
+            "type": "Float", 
+            "value":"48,5"  
+        }
+    }, "magnitud":{
+        "type":"Float", 
+        "value":"60" 
+    },
+    "unidades":{
+        "type":"Text", 
+        "value":"co2" 
+},
+    "tecnica":{
+        "type":"Text", 
+        "value":"captacion" }
+    }
+},
+
+"coordinates": { 
+        "value":{
+            "value": 
+                [  
+            43.66481,  
+            7.196545  
+                ], 
+        "type": "geo:json"
+         } 
+  }
+}
